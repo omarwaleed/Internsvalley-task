@@ -31,6 +31,8 @@ Then open the file `client/dist/index.hmtl` in the browser. Make sure that the
 server is still running! You should see a welcome message, the name of the
 first fuel station `Aral` and an empty map of Berlin.
 
+It should look like this: ![Screenshot](https://screenshots.firefox.com/dV1M7d7kM7xW9dro/null)
+
 # Task 1 - Display gas station on map (client)
 In the first task display the location of the first gas station on the map. The
 map uses the leaflet library.  Use a marker and position it on the map
