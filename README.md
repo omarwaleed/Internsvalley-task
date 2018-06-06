@@ -19,7 +19,7 @@ To start the server go into the `server` directory and run
   npm install
   node index.js
 ```
-To see whether the server work check <http://localhost:3000> and see if you get a JSON object
+To see whether the server works check <http://localhost:3000> and see if you get a JSON object
 with information about a gas station.
 
 To build the client go into the directory `client` and run
@@ -42,7 +42,7 @@ you make changes re-run `npm start` and refresh the file
 
 # Task 2 - Get coordinates of map click (client)
 When the user clicks on the map capture this event and convert the click into
-geocoordinates (lat and lon). When the users clicks make a request to the
+geocoordinates (lat and lon). When the user clicks, make a request to the
 server to get the nearest fuel station. Change the fetch request to the server
 to include these coordinates as query string. E.g.
 <http://localhost:3000?lat=42.1&12.1>.
