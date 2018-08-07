@@ -63,16 +63,18 @@ class MapComponent extends React.Component {
   render() {
     return (
         <div>
-          Name: {this.state.name}<br />
-          {
-            this.state.distance?
-            <div>
-              Distance: {this.state.distance} Meters
-            </div>
-            :
-            null
-          }
-          {this.state.coordinates[1]} {this.state.coordinates[0]}
+          <div id="container">
+            Name: {this.state.name}<br />
+            {
+              this.state.distance?
+              <div id="distance-container">
+                Distance: {this.state.distance} Meters
+              </div>
+              :
+              <div><br /></div>
+            }
+            {this.state.coordinates[1]} {this.state.coordinates[0]}
+          </div>
           <div id="mapid"></div>
         </div>);
   }

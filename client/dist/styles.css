@@ -4,3 +4,16 @@
 #mapid {
   height: 560px;
 }
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#distance-container {
+  color: 'blue';
+}
